@@ -1,6 +1,8 @@
 ### Install
 `npm install`
+`npm install -g allure-commandline --save-dev`
 
+# For using Allure reporter you need Java 8 or higher on your PC
 
 ### Run tests
 all tests:
