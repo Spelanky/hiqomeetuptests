@@ -17,7 +17,7 @@ describe("Example of mocha tests", () => {
   ];
 
   before("Should open project", async function () {
-    await browser.url(`https://anatoly-karpovich.github.io/HiqoMeetup/`);
+    await browser.url(`/HiqoMeetup`);
     await expect(browser).toHaveTitle("Example for testing");
     await $("#registerOnLogin").click();
     await $("#backOnRegister").waitForDisplayed({ timeout: 3000 });
