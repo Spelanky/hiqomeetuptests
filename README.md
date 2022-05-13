@@ -1,8 +1,9 @@
 ### Install
 `npm install`
 `npm install -g allure-commandline --save-dev`
+`npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/register`
 
-# For using Allure reporter you need Java 8 or higher on your PC
+### For using Allure reporter you need Java 8 or higher on your PC
 
 ### Run tests
 all tests:
@@ -21,9 +22,6 @@ for example:
 
 ### Generate allure
 `npm run report`
-
-### Clean allure
-`npm run clean`
 
 ### Run REPL with Chrome
 `npm run repl`
