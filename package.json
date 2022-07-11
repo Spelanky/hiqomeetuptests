@@ -22,5 +22,8 @@
         "report": "allure serve",
         "repl": "wdio repl chrome",
         "newReport": "allure generate allure-results --clean && allure open"
+    },
+    "dependencies": {
+        "webdriver-manager": "^12.1.8"
     }
 }
